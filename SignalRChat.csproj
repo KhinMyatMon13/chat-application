@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>367c20e5-a03f-421a-823c-7128f350f33f</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.13.0" />
+  </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\@Projects\\SigalRTest\\SignalRChat\\SignalRChat\\SignalRChat.csproj": {}
+    "D:\\@Projects\\SigalRTest\\WorkingtoChangeAzure\\SignalRChat\\SignalRChat\\SignalRChat.csproj": {}
   },
   "projects": {
-    "D:\\@Projects\\SigalRTest\\SignalRChat\\SignalRChat\\SignalRChat.csproj": {
+    "D:\\@Projects\\SigalRTest\\WorkingtoChangeAzure\\SignalRChat\\SignalRChat\\SignalRChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\@Projects\\SigalRTest\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+        "projectUniqueName": "D:\\@Projects\\SigalRTest\\WorkingtoChangeAzure\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
         "projectName": "SignalRChat",
-        "projectPath": "D:\\@Projects\\SigalRTest\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+        "projectPath": "D:\\@Projects\\SigalRTest\\WorkingtoChangeAzure\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\@Projects\\SigalRTest\\SignalRChat\\SignalRChat\\obj\\",
+        "outputPath": "D:\\@Projects\\SigalRTest\\WorkingtoChangeAzure\\SignalRChat\\SignalRChat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.SignalR": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
